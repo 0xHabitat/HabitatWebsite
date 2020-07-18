@@ -155,7 +155,7 @@ class Header extends React.Component {
                 hoverTextColor="black"
                 transition
               >
-                For Designers
+                About
               </Anchor>
 
               <Link to="/docs/react/intro">
@@ -167,7 +167,7 @@ class Header extends React.Component {
                   rounded="lg"
                   style={{ letterSpacing: "-0.5px" }}
                 >
-                  Documentation
+                  Sign Up
                 </Button>
               </Link>
             </Div>
