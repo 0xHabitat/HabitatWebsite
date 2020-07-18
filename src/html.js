@@ -22,25 +22,25 @@ export default function HTML(props) {
 
         {/* Twitter Card data */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@atomize_react" />
-        <meta name="twitter:title" content="Atomize React" />
-        <meta name="twitter:description" content="Design System for React JS" />
-        <meta name="twitter:creator" content="@atomize_react" />
+        <meta name="twitter:site" content="@deora_earth" />
+        <meta name="twitter:title" content="Habitat" />
+        <meta name="twitter:description" content="Governance Plattform for DEFI & DAO's" />
+        <meta name="twitter:creator" content="@deora_earth" />
         <meta
           name="twitter:image"
           content="https://atomizecode.com/launch.png"
         />
 
         {/* Open Graph data */}
-        <meta property="og:title" content="Atomize React" />
+        <meta property="og:title" content="Habitat" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://atomizereact.com/" />
         <meta
           property="og:image"
           content="https://atomizecode.com/launch.png"
         />
-        <meta property="og:description" content="Design System for React JS" />
-        <meta property="og:site_name" content="Atomize React" />
+        <meta property="og:description" content="Governance Plattform for DEFI & DAO's" />
+        <meta property="og:site_name" content="Habitat" />
         <meta property="fb:app_id" content="1887338054890731" />
 
         {/* Google Analitics */}

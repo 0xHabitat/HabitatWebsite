@@ -28,7 +28,7 @@ const HoverTextColor = () => {
       </Text>
 
       <Text hoverTextColor="info700" textSize="subheader" textWeight="500">
-        Info700
+        info700
       </Text>
       <Text hoverTextColor="warning700" textSize="subheader" textWeight="500">
         Warning700

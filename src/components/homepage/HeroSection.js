@@ -25,20 +25,21 @@ class HeroSection extends React.Component {
               fontFamily="secondary"
               m={{ b: "1rem" }}
             >
-              Design System for React JS
+              Fast & Simple Governance Plattform
             </Text>
             <Text
               tag="h2"
               textWeight="400"
-              maxW="36rem"
+              maxW="42rem"
               textSize="subheader"
               textAlign="center"
               fontFamily="secondary"
               textColor="medium"
               m={{ b: "2.5rem" }}
             >
-              Atomize React is a UI framework that helps developers collaborate
-              with designers and build consistent user interfaces effortlessly.
+              Habitat is a beautifully created Governance Plattform on Layer2. 
+              Launch your own Governance Token with a view clicks or use any exsiting ERC-20 token. 
+              We enable fast and cheap governance for your DAO or DEFI project
             </Text>
 
             <Div

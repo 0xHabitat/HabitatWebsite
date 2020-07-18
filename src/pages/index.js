@@ -14,8 +14,8 @@ import Footer from "../components/homepage/Footer"
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Design System for React JS"
-      description="Atomize React is a UI framework that helps developers collaborate with designers and build consistent user interfaces effortlessly."
+      title="Habitat - blazing fast & simple Governance plattform "
+      description="Blazing fast and simple Governance Plattform. Launch your DAO or Protocoll token with a view clicks and get started."
     />
     <Header />
     <HeroSection />

@@ -27,7 +27,7 @@ const TextColor = () => {
       </Text>
 
       <Text textColor="info700" textSize="subheader" textWeight="500">
-        Info700
+        info700
       </Text>
       <Text textColor="warning700" textSize="subheader" textWeight="500">
         Warning700
