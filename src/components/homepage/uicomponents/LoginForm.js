@@ -45,7 +45,7 @@ const LoginForm = () => (
         placeholder="johndoe@gmail.com"
         rounded="circle"
         borderColor="gray400"
-        focusBorderColor="info700"
+        focusBorderColor="brand"
         suffix={
           <Icon
             pos="absolute"
@@ -65,7 +65,7 @@ const LoginForm = () => (
         placeholder="Password"
         rounded="circle"
         borderColor="gray400"
-        focusBorderColor="info700"
+        focusBorderColor="brand"
         suffix={
           <Icon
             pos="absolute"
@@ -84,7 +84,7 @@ const LoginForm = () => (
       h="3rem"
       bg="info200"
       hoverBg="info300"
-      textColor="info700"
+      textColor="brand"
     >
       Login
     </Button>

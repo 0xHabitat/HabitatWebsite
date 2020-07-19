@@ -1,6 +1,6 @@
 import React from "react"
 import Highlight, { defaultProps } from "prism-react-renderer"
-import { Div, Text, Row, Col, Container, Image, Icon, Button } from "atomize"
+import { Div, Text, Container, Image, Icon, Button } from "atomize"
 import codeTheme from "../common/codeTheme"
 import "./craft.css"
 
@@ -179,7 +179,7 @@ const AnimatingBlock = () => (
                 key={num}
                 name="StarSolid"
                 size="14px"
-                color={num === 5 ? "gray400" : "info700"}
+                color={num === 5 ? "gray400" : "brand"}
                 m={{ r: "0.125rem" }}
               />
             ))}
@@ -191,8 +191,8 @@ const AnimatingBlock = () => (
       </Div>
       <Button
         rounded="lg"
-        bg="info700"
-        hoverBg="info800"
+        bg="brand"
+        hoverBg="brand3"
         w="100%"
         textWeight="500"
       >
@@ -220,7 +220,7 @@ const AnimatingBlock = () => (
         />
         <Text textWeight="500">Meagan Fisher</Text>
       </Div>
-      <Icon name="Add" color="info700" size="20px" />
+      <Icon name="Add" color="brand" size="20px" />
     </Div>
   </Div>
 )
@@ -255,7 +255,7 @@ const code = `const PaymentCardBlock = () => (
               key={num}
               name="StarSolid"
               size="14px"
-              color={num === 5 ? "gray400" : "info700"}
+              color={num === 5 ? "gray400" : "brand"}
               m={{ r: "0.125rem" }}
             />
           ))}
@@ -267,8 +267,8 @@ const code = `const PaymentCardBlock = () => (
     </Div>
     <Button
       rounded="lg"
-      bg="info700"
-      hoverBg="info800"
+      bg="brand"
+      hoverBg="brand3"
       w="100%"
       textWeight="500"
     >

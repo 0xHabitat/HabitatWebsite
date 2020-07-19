@@ -1,10 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { Button, Container, Text, Div, Icon, Input, Anchor } from "atomize"
+import { Button, Container, Text, Div, Icon, Anchor } from "atomize"
 
-import boy from "../../images/avatar/boy.png"
-import cardImg from "../../images/hero-illustration/card-img.png"
 import FollowCard from "./uicomponents/FollowCard"
 import UserEdit from "./uicomponents/UserEdit"
 import Buttons from "./uicomponents/Buttons"
@@ -15,7 +13,7 @@ class HeroSection extends React.Component {
   render() {
     return (
       <>
-        <Div tag="section" p={{ t: { xs: "6rem", md: "10rem" } }}>
+        <Div tag="section" p={{ t: { xs: "6rem", md: "11rem" } }}>
           <Container d="flex" flexDir="column" align="center">
             <Text
               tag="h1"
@@ -41,7 +39,6 @@ class HeroSection extends React.Component {
               Launch your own Governance Token with a view clicks or use any exsiting ERC-20 token. 
               We enable fast and cheap governance for your DAO or DEFI project
             </Text>
-
             <Div
               d="flex"
               w="100%"
@@ -52,8 +49,8 @@ class HeroSection extends React.Component {
                 <Button
                   h="3rem"
                   w={{ xs: "100%", sm: "11rem" }}
-                  bg="info700"
-                  hoverBg="info600"
+                  bg="brand"
+                  hoverBg="brand4"
                   rounded="lg"
                   m={{ r: "1rem", b: { xs: "1rem", sm: "0" } }}
                 >

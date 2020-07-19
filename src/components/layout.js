@@ -28,7 +28,14 @@ const theme = {
     },
   },
   colors: {
-    brandgray: "#F7F5F4",
+    brand: "#635BFF",
+    brandLight: "#9B97F3",
+    brand2: "#FFCB57",
+    brand2Light: "#F3D694",
+    brand3: "#1CDB9E",
+    brand3Light: "#83E0C3",
+    brand4: "#3BDEFF",
+    brand4Light: "#92E2F2",
   },
 }
 

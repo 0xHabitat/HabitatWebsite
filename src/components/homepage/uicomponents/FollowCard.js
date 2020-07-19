@@ -68,8 +68,8 @@ const FollowCard = ({ ...rest }) => (
     </Div>
     <Div d="flex" w="100%">
       <Button
-        bg="info700"
-        hoverBg="info800"
+        bg="brand"
+        hoverBg="brand3"
         justify="space-between"
         flexGrow="1"
         maxW="calc(50% - 0.5rem)"

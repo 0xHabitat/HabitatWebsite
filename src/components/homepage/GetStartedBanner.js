@@ -86,7 +86,7 @@ const GettingStartedBanner = () => {
           >
             <Div>
               <Text textSize="heading" textWeight="600" m={{ b: "0.5rem" }}>
-                UI Templates are on their way 🚀
+                UI Templates are on their way <span role="img" aria-label="rocket emoji">🚀</span>
               </Text>
               <Text
                 textSize="subheader"
@@ -159,8 +159,8 @@ const GettingStartedBanner = () => {
                     <Button
                       h="3rem"
                       w="10rem"
-                      bg="info700"
-                      hoverBg="info600"
+                      bg="brand"
+                      hoverBg="brand4"
                       rounded="circle"
                       m={{ r: "1rem" }}
                     >

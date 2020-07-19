@@ -64,7 +64,7 @@ const DesignDevelopment = () => {
                       name="LongRight"
                       size="16px"
                       m={{ l: "1rem" }}
-                      color="info700"
+                      color="brand"
                     />
                   </Anchor>
                 </Div>
@@ -98,8 +98,8 @@ const DesignDevelopment = () => {
                   <Link to="/docs/react/intro">
                     <Text
                       textWeight="500"
-                      color="info700"
-                      hoverColor="info800"
+                      color="brand"
+                      hoverColor="brand3"
                       d="flex"
                       align="center"
                     >
@@ -108,7 +108,7 @@ const DesignDevelopment = () => {
                         name="LongRight"
                         size="16px"
                         m={{ l: "1rem" }}
-                        color="info700"
+                        color="brand"
                       />
                     </Text>
                   </Link>

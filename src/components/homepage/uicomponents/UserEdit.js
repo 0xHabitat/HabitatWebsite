@@ -44,7 +44,7 @@ const UserEdit = ({ ...rest }) => (
     <Icon
       name="Edit"
       color="black"
-      hoverColor="info700"
+      hoverColor="brand"
       size="20px"
       cursor="pointer"
     />

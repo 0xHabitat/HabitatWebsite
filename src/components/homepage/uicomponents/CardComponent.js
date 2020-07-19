@@ -3,7 +3,7 @@ import React from "react"
 import girl2 from "../../../images/avatar/girl2.png"
 import cardImg from "../../../images/hero-illustration/card-img.png"
 
-import { Button, Text, Div, Icon } from "atomize"
+import { Text, Div, Icon } from "atomize"
 
 class CardComponent extends React.Component {
   state = {

@@ -111,8 +111,8 @@ class Intoducing extends React.Component {
                       </Div>
                       <Link to={item.link}>
                         <Text
-                          textColor="info700"
-                          hoverTextColor="info800"
+                          textColor="brand"
+                          hoverTextColor="brand3"
                           textWeight="500"
                         >
                           See How

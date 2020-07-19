@@ -15,11 +15,11 @@ const Buttons = () => (
   >
     {[
       { icon: "HeartSolid", color: "danger700" },
-      { icon: "Eye", color: "info700" },
+      { icon: "Eye", color: "brand" },
       { icon: "EditSolid", color: "warning700" },
       { icon: "Attachment", color: "success700" },
       { icon: "Play", color: "danger700" },
-      { icon: "Download", color: "info700" },
+      { icon: "Download", color: "brand" },
     ].map((button, index) => (
       <Button
         border="1px solid"

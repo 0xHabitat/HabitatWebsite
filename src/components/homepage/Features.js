@@ -8,7 +8,6 @@ import {
   Image,
   Icon,
   Button,
-  Tag,
 } from "atomize"
 
 import react from "../../images/react.svg"
@@ -127,8 +126,8 @@ class Features extends React.Component {
                     bottom="4rem"
                     w="6rem"
                     rounded="lg"
-                    bg="info700"
-                    hoverBg="info600"
+                    bg="brand"
+                    hoverBg="brand4"
                     shadow="3"
                     hoverShadow="4"
                   >

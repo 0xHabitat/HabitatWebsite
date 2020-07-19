@@ -157,7 +157,7 @@ const Footer = () => {
                           <Anchor
                             m={{ b: "0.5rem" }}
                             textColor="medium"
-                            hoverTextColor="info800"
+                            hoverTextColor="brand3"
                             d="block"
                             href={link.link}
                             target="_blank"
@@ -172,7 +172,7 @@ const Footer = () => {
                             <Text
                               m={{ b: "0.5rem" }}
                               textColor="medium"
-                              hoverTextColor="info800"
+                              hoverTextColor="brand3"
                             >
                               {link.name}
                             </Text>
@@ -203,7 +203,7 @@ const Footer = () => {
                 <Icon
                   name={link.icon}
                   size="20px"
-                  hoverColor="info800"
+                  hoverColor="brand3"
                   m={{ r: index !== mediaLinks.length - 1 && "1rem" }}
                   cursor="pointer"
                 />

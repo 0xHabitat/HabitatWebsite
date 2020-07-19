@@ -23,7 +23,7 @@ const NotFoundPage = () => (
         You just hit a route that doesn&#39;t exist... the sadness.
       </Text>
       <Link to="/">
-        <Button bg="info700" hoverBg="info800">
+        <Button bg="brand" hoverBg="brand3">
           Go to Home
         </Button>
       </Link>
