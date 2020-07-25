@@ -3,16 +3,16 @@ import { Div, Text, Container, Anchor, Button, Icon, Row, Col } from "atomize"
 
 const list = [
   {
-    title: "15+",
-    content: "Ready to use React Components",
+    title: "80%",
+    content: "Save 80% on every user transaction ",
   },
   {
-    title: "60+",
-    content: "Predefined colors for theme setup",
+    title: "People",
+    content: "Provide a service people will love to use",
   },
   {
     title: "</>",
-    content: "Detailed documentation for each component",
+    content: "Customize it to match your brand & needs",
   },
   {
     title: "FREE",
@@ -86,15 +86,14 @@ const GettingStartedBanner = () => {
           >
             <Div>
               <Text textSize="heading" textWeight="600" m={{ b: "0.5rem" }}>
-                UI Templates are on their way <span role="img" aria-label="rocket emoji">🚀</span>
+              This is a call to action <span role="img" aria-label="rocket emoji">🚀</span>
               </Text>
               <Text
                 textSize="subheader"
                 textColor="medium"
                 m={{ b: { xs: "3rem", lg: "0" } }}
               >
-                Official UI templates build on Atomize React will be released
-                very soon.
+                What are you waiting for? Start to offer the best in class governance for the decentralized world.
               </Text>
             </Div>
             <Div d="flex" align="flex-end">
@@ -112,7 +111,7 @@ const GettingStartedBanner = () => {
                   justify="space-between"
                   suffix={<Icon name="LongRight" size="20px" color="white" />}
                 >
-                  Get notified
+                  Start now!
                 </Button>
               </Anchor>
             </Div>

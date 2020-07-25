@@ -8,50 +8,30 @@ import {
   Image,
   Icon,
   Button,
-} from "atomize"
+} from "Atomize"
 
 import react from "../../images/react.svg"
 
-import icon1 from "../../images/feature-icons/1.svg"
 import icon2 from "../../images/feature-icons/2.svg"
-import icon3 from "../../images/feature-icons/3.svg"
 import icon4 from "../../images/feature-icons/4.svg"
 import icon5 from "../../images/feature-icons/5.svg"
-import icon6 from "../../images/feature-icons/6.svg"
 
 const featuresList = [
   {
     icon: icon5,
-    heading: "Atomic",
-    subheading: "Based on Atomic Design Methodology.",
+    heading: "Experiance",
+    subheading: "Provide the experiance people expect.",
   },
   {
     icon: icon2,
-    heading: "Theme Setup",
-    subheading: "Auto updating colors and Styleguide.",
+    heading: "Community",
+    subheading: "Create a active community arround your product.",
   },
 
   {
     icon: icon4,
-    heading: "Components",
-    subheading: "Ever-increasing list of components.",
-  },
-
-  {
-    icon: icon6,
-    heading: "Responsive",
-    subheading: "Build fully responsive structures easily.",
-  },
-
-  {
-    icon: icon3,
-    heading: "Customisation",
-    subheading: "Multiple customisations to suit your style.",
-  },
-  {
-    icon: icon1,
-    heading: "Icon System",
-    subheading: "An inbuilt Icon system for faster development.",
+    heading: "Minimalism",
+    subheading: "Minimal design with a full feauter set.",
   },
 ]
 
@@ -126,12 +106,12 @@ class Features extends React.Component {
                     bottom="4rem"
                     w="6rem"
                     rounded="lg"
-                    bg="brand"
+                    bg="brand2"
                     hoverBg="brand4"
                     shadow="3"
                     hoverShadow="4"
                   >
-                    Sign Up
+                    Vote
                   </Button>
                   <Button
                     pos="absolute"
@@ -139,7 +119,7 @@ class Features extends React.Component {
                     top="7.5rem"
                     w="2.5rem"
                     rounded="circle"
-                    bg="warning700"
+                    bg="brand"
                     hoverBg="warning600"
                     shadow="3"
                     hoverShadow="4"
@@ -219,8 +199,8 @@ class Features extends React.Component {
                     textAlign="left"
                     m={{ b: "3rem" }}
                   >
-                    Beautiful & consistant UI powered with{" "}
-                    <span style={{ color: "#06d7ff" }}>React</span>.
+                    People first governance for{" "}
+                    <span style={{ color: "#06d7ff" }}>decentralized Finance</span>.
                   </Text>
                   <Div>
                     <Row>

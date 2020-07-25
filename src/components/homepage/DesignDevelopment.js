@@ -20,8 +20,8 @@ const DesignDevelopment = () => {
               maxW="42rem"
               m={{ b: "4rem" }}
             >
-              A combination of tools to design and develop modern applications
-              at ease.
+              We have the solution for all{" "}
+              <span style={{ color: "#FFCB57" }}>Project stages</span>.
             </Text>
           </Div>
           <Div>
@@ -35,23 +35,24 @@ const DesignDevelopment = () => {
                   p="2rem"
                   m={{ b: { xs: "2rem", md: "0" } }}
                 >
-                  <Image
-                    src={logoSketch}
-                    h="2.5rem"
-                    w="auto"
-                    m={{ b: "1rem" }}
-                  />
-                  <Text m={{ b: "0.5rem" }} textSize="heading" textWeight="500">
-                    Design
+                  <Text
+                    textSize="36px"
+                    textColor="medium"
+                    p={{ r: "1rem" }}
+                    m={{ b: "1.5rem" }}
+                  >
+                    🌱
                   </Text>
-
+                  <Text m={{ b: "0.5rem" }} textSize="heading" textWeight="500">
+                  Use existing Gov Token
+                  </Text>
                   <Text
                     textSize="subheader"
                     textColor="medium"
                     p={{ r: "1rem" }}
                     m={{ b: "1.5rem" }}
                   >
-                    Design your website by using Atomize for Sketch App.
+                    You already have a token?.
                   </Text>
                   <Anchor
                     d="flex"
@@ -59,7 +60,7 @@ const DesignDevelopment = () => {
                     href="http://www.atomizedesign.com/"
                     target="_blank"
                   >
-                    Design Resource
+                    Start now!
                     <Icon
                       name="LongRight"
                       size="16px"
@@ -78,14 +79,16 @@ const DesignDevelopment = () => {
                   rounded="xl"
                   p="2rem"
                 >
-                  <Image
-                    src={logoReact}
-                    h="2.5rem"
-                    w="auto"
-                    m={{ b: "1rem" }}
-                  />
+                  <Text
+                    textSize="36px"
+                    textColor="medium"
+                    p={{ r: "1rem" }}
+                    m={{ b: "1.5rem" }}
+                  >
+                    🧑‍💻
+                  </Text>
                   <Text m={{ b: "0.5rem" }} textSize="heading" textWeight="500">
-                    Development
+                  Issue new Gov Token
                   </Text>
                   <Text
                     textSize="subheader"
@@ -93,17 +96,17 @@ const DesignDevelopment = () => {
                     p={{ r: "1rem" }}
                     m={{ b: "1.5rem" }}
                   >
-                    Bring your designs to life with Atomize for React JS.
+                    Yes, we can help you with that!
                   </Text>
                   <Link to="/docs/react/intro">
                     <Text
                       textWeight="500"
                       color="brand"
-                      hoverColor="brand3"
+                      hoverColor="brand"
                       d="flex"
                       align="center"
                     >
-                      Documentation
+                      Start now!
                       <Icon
                         name="LongRight"
                         size="16px"

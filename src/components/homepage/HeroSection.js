@@ -8,13 +8,15 @@ import UserEdit from "./uicomponents/UserEdit"
 import Buttons from "./uicomponents/Buttons"
 import CardComponent from "./uicomponents/CardComponent"
 import LoginForm from "./uicomponents/LoginForm"
+
 // import Notification from './uicomponents/Notification'
 class HeroSection extends React.Component {
   render() {
     return (
       <>
+        <Div bgImg="image/url" bgSize="cover">
         <Div tag="section" p={{ t: { xs: "6rem", md: "11rem" } }}>
-          <Container d="flex" flexDir="column" align="center">
+          <Container d="flex" flexDir="column" align="center" background>
             <Text
               tag="h1"
               textWeight="500"
@@ -35,9 +37,9 @@ class HeroSection extends React.Component {
               textColor="medium"
               m={{ b: "2.5rem" }}
             >
-              Habitat is a beautifully created Governance Plattform on Layer2. 
-              Launch your own Governance Token with a view clicks or use any exsiting ERC-20 token. 
-              We enable fast and cheap governance for your DAO or DEFI project
+              Habitat is a beautifully and simple Governance Plattform on Layer2. 
+              Launch your own Governance Token with a view clicks or use any exsisting ERC-20 token. 
+              We enable fast and cheap governance for your DAO or DEFI project.
             </Text>
             <Div
               d="flex"
@@ -45,7 +47,7 @@ class HeroSection extends React.Component {
               justify="center"
               flexDir={{ xs: "column", sm: "row" }}
             >
-              <Link to="/docs/react/intro">
+              <Link to="https://calendly.com/deora_earth/intro?month=2020-07" target="_blank">
                 <Button
                   h="3rem"
                   w={{ xs: "100%", sm: "11rem" }}
@@ -58,7 +60,7 @@ class HeroSection extends React.Component {
                 </Button>
               </Link>
               <Anchor
-                href="https://www.youtube.com/watch?v=1uEJT3_M1Y0"
+                href="https://www.youtube.com/embed/jcbs2CsoLqg?start=2430"
                 target="_blank"
               >
                 <Button
@@ -81,12 +83,14 @@ class HeroSection extends React.Component {
                     />
                   }
                 >
-                  Watch Video
+                  Intro Video
                 </Button>
               </Anchor>
             </Div>
           </Container>
         </Div>
+        </Div>
+        {/*
         <Div
           tag="section"
           w="100vw"
@@ -109,27 +113,22 @@ class HeroSection extends React.Component {
                 h={{ xs: "auto", md: "21rem", lg: "20rem" }}
                 pos="relative"
               >
-                {/* Button Components */}
                 <Buttons />
 
-                {/* Follow Component */}
                 <FollowCard />
 
-                {/* Card Component */}
                 <CardComponent />
 
-                {/* Notification Component */}
-                {/* <Notification /> */}
+                <Notification />
 
-                {/* Form Component */}
                 <LoginForm />
 
-                {/* User Component */}
                 <UserEdit />
               </Div>
             </Div>
           </Container>
         </Div>
+        */}
       </>
     )
   }

@@ -27,7 +27,7 @@ const Craft = () => {
           maxW="40rem"
           m={{ b: "6rem", x: "auto" }}
         >
-          Code the perfect design for each project using Atomize.
+          Code the perfect design for each project using atomize.
         </Text>
         {/* <Row>
           <Col size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>

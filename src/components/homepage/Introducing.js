@@ -2,37 +2,28 @@ import React from "react"
 import { Link } from "gatsby"
 import { Div, Text, Row, Col, Container, Image, Tag } from "atomize"
 
-import intro1 from "../../images/icons/intro1.svg"
-import intro2 from "../../images/icons/intro2.svg"
-import intro3 from "../../images/icons/intro3.svg"
-import intro4 from "../../images/icons/intro4.svg"
-
 const list = [
   {
-    icon: intro1,
-    heading: "Flexible Grid",
-    subheading: "Change grid variables or give decimal column size.",
-    link: "/docs/react/theme#columnCount",
+    icon: "🗳️",
+    heading: "Cheap Voting",
+    subheading: "Cast a vote on layer2 save up to 97%",
   },
   {
-    icon: intro2,
-    heading: "Style guide",
-    subheading: "Update theme throughout the application easily.",
-    link: "/docs/react/theme#availableColors",
+    icon: "🚀",
+    heading: "Fast Transactions",
+    subheading: "fast execution & ‚seamless UX",
   },
 
   {
-    icon: intro3,
-    heading: "Spacing",
-    subheading: "A better and controlled way of update spacing.",
-    link: "/docs/react/spacing",
+    icon: "📐",
+    heading: "Flexible Design",
+    subheading: "your community, your parameters",
   },
 
   {
-    icon: intro4,
-    heading: "Responsive",
-    subheading: "Better control to make the app responsive.",
-    link: "/docs/react/responsive",
+    icon: "👨‍",
+    heading: "People First",
+    subheading: "Designed for people. To start Real change",
   },
 ]
 
@@ -57,7 +48,7 @@ class Intoducing extends React.Component {
             fontFamily="secondary"
             m={{ b: "1rem" }}
           >
-            Why use Atomize React?
+            Why use Habitat?
           </Text>
           <Text
             textSize="subheader"
@@ -65,8 +56,7 @@ class Intoducing extends React.Component {
             maxW="30rem"
             m={{ b: "3rem" }}
           >
-            Atomize React helps you in building fully responsive websites and
-            products that match your style.
+          We give you the tools to kickstart your governance process & give users value at hand.          
           </Text>
           <Div
             p={{ b: "6rem" }}
@@ -88,12 +78,13 @@ class Intoducing extends React.Component {
                       rounded="xl"
                     >
                       <Div flexGrow="1">
-                        <Image
-                          src={item.icon}
-                          m={{ t: "1rem", b: "2rem" }}
-                          w="auto"
-                          h="2rem"
-                        />
+                        <Text
+                            textSize="32px"
+                            textWeight="500"
+                            m={{ b: "1rem" }}
+                          >
+                          {item.icon}
+                        </Text>
                         <Text
                           textSize="title"
                           textWeight="500"
@@ -109,15 +100,6 @@ class Intoducing extends React.Component {
                           {item.subheading}
                         </Text>
                       </Div>
-                      <Link to={item.link}>
-                        <Text
-                          textColor="brand"
-                          hoverTextColor="brand3"
-                          textWeight="500"
-                        >
-                          See How
-                        </Text>
-                      </Link>
                     </Div>
                   </Div>
                 </Col>
