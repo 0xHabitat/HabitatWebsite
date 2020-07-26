@@ -23,30 +23,30 @@ export default function HTML(props) {
         {/* Twitter Card data */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@deora_earth" />
-        <meta name="twitter:title" content="atomize" />
+        <meta name="twitter:title" content="Habitat" />
         <meta name="twitter:description" content="Governance Plattform for DEFI & DAO's" />
         <meta name="twitter:creator" content="@deora_earth" />
         <meta
           name="twitter:image"
-          content="https://atomizecode.com/launch.png"
+          content="https://habitat.deora.earth/launch.png"
         />
 
         {/* Open Graph data */}
-        <meta property="og:title" content="atomize" />
+        <meta property="og:title" content="Habitat" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://atomizereact.com/" />
+        <meta property="og:url" content="https://habitat.deora.earth" />
         <meta
           property="og:image"
-          content="https://atomizecode.com/launch.png"
+          content="https://habitat.deora.earth/launch.png"
         />
         <meta property="og:description" content="Governance Plattform for DEFI & DAO's" />
-        <meta property="og:site_name" content="atomize" />
+        <meta property="og:site_name" content="Habitat" />
         <meta property="fb:app_id" content="1887338054890731" />
 
         {/* Google Analitics */}
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-143759982-1"
+          src="https://www.googletagmanager.com/gtag/js?id=UA-147146482-5"
         ></script>
         <script
           dangerouslySetInnerHTML={{
@@ -54,7 +54,8 @@ export default function HTML(props) {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
       
-              gtag('config', 'UA-143759982-1');`,
+              gtag('config', 'UA-147146482-5
+              ');`,
           }}
         ></script>
 

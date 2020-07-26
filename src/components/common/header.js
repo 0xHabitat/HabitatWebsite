@@ -51,22 +51,12 @@ class Header extends React.Component {
           </Div>
           <Container d="flex" align="center" justify="space-between">
             <Div cursor="pointer">
-            <Anchor
-                m={{ r: "2rem", b: { xs: "1rem", md: "0" } }}
-                textWeight="700"
-                textColor="black"
-                fontSize="14px"
-              >
-                HABITAT
-              </Anchor>
-              {/*
               <Image
                 src={logo}
                 alt="Habitat"
                 h="18px"
                 w="auto"
               />
-              */}
             </Div>
 
             {/* Icon For Mobile */}

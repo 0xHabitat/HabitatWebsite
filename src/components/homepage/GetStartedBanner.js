@@ -98,7 +98,7 @@ const GettingStartedBanner = () => {
             </Div>
             <Div d="flex" align="flex-end">
               <Anchor
-                href="https://forms.gle/NfQ3NA4hSittrNNLA"
+                href="https://calendly.com/deora_earth"
                 target="_blank"
               >
                 <Button

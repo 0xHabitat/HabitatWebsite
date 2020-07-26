@@ -14,7 +14,7 @@ import Footer from "../components/homepage/Footer"
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="atomize - blazing fast & simple Governance plattform "
+      title="Habitat - fast & simple Governance plattform "
       description="Blazing fast and simple Governance Plattform. Launch your DAO or Protocoll token with a view clicks and get started."
     />
     <Header />

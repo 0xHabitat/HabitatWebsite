@@ -14,7 +14,6 @@ class HeroSection extends React.Component {
   render() {
     return (
       <>
-        <Div bgImg="image/url" bgSize="cover">
         <Div tag="section" p={{ t: { xs: "6rem", md: "11rem" } }}>
           <Container d="flex" flexDir="column" align="center" background>
             <Text
@@ -88,7 +87,6 @@ class HeroSection extends React.Component {
               </Anchor>
             </Div>
           </Container>
-        </Div>
         </Div>
         {/*
         <Div

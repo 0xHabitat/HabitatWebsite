@@ -2,9 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import { Div, Text, Row, Col, Container, Anchor, Icon, Image } from "atomize"
 
-import logoSketch from "../../images/logo-sketch.svg"
-import logoReact from "../../images/logo-react.svg"
-
 const DesignDevelopment = () => {
   return (
     <Div tag="section">
@@ -54,20 +51,6 @@ const DesignDevelopment = () => {
                   >
                     You already have a token?.
                   </Text>
-                  <Anchor
-                    d="flex"
-                    align="center"
-                    href="http://www.atomizedesign.com/"
-                    target="_blank"
-                  >
-                    Start now!
-                    <Icon
-                      name="LongRight"
-                      size="16px"
-                      m={{ l: "1rem" }}
-                      color="brand"
-                    />
-                  </Anchor>
                 </Div>
               </Col>
               <Col size={{ xs: 12, md: 6, lg: 4 }} pos="relative">
@@ -98,23 +81,6 @@ const DesignDevelopment = () => {
                   >
                     Yes, we can help you with that!
                   </Text>
-                  <Link to="/docs/react/intro">
-                    <Text
-                      textWeight="500"
-                      color="brand"
-                      hoverColor="brand"
-                      d="flex"
-                      align="center"
-                    >
-                      Start now!
-                      <Icon
-                        name="LongRight"
-                        size="16px"
-                        m={{ l: "1rem" }}
-                        color="brand"
-                      />
-                    </Text>
-                  </Link>
                 </Div>
               </Col>
             </Row>

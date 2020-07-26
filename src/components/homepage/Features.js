@@ -8,9 +8,9 @@ import {
   Image,
   Icon,
   Button,
-} from "Atomize"
+} from "atomize"
 
-import react from "../../images/react.svg"
+import Habitat from "../../images/habitat.svg"
 
 import icon2 from "../../images/feature-icons/2.svg"
 import icon4 from "../../images/feature-icons/4.svg"
@@ -106,8 +106,8 @@ class Features extends React.Component {
                     bottom="4rem"
                     w="6rem"
                     rounded="lg"
-                    bg="brand2"
-                    hoverBg="brand4"
+                    bg="brand4"
+                    hoverBg="brand"
                     shadow="3"
                     hoverShadow="4"
                   >
@@ -120,7 +120,7 @@ class Features extends React.Component {
                     w="2.5rem"
                     rounded="circle"
                     bg="brand"
-                    hoverBg="warning600"
+                    hoverBg="brand4"
                     shadow="3"
                     hoverShadow="4"
                   >
@@ -131,28 +131,28 @@ class Features extends React.Component {
                     pos="absolute"
                     left="5rem"
                     bottom="1rem"
-                    color="danger700"
+                    color="brand2"
                   />
                   <Div
-                    h="1.5rem"
-                    w="2.5rem"
+                    h="2.0rem"
+                    w="6.5rem"
                     p="0.3rem"
                     pos="absolute"
                     top="3rem"
                     right="5rem"
                     rounded="circle"
-                    bg="success700"
+                    bg="brand3"
                     d="flex"
                     align="center"
                     justify="flex-end"
                     shadow="4"
                   >
-                    <Div
-                      h="0.9rem"
-                      w="0.9rem"
-                      rounded="circle"
-                      bg="white"
-                    ></Div>
+                      <Text 
+                      textColor="white"
+                      textWeight="600"
+                      p={{ r: "0.5rem" }}
+                      >
+                      yes votes</Text>
                   </Div>
                   <Div
                     pos="absolute"
@@ -165,7 +165,7 @@ class Features extends React.Component {
                     align="center"
                     justify="center"
                   >
-                    <Image src={react} w="4rem" />
+                    <Image src={Habitat} w="4rem" />
                   </Div>
 
                   {/* <Image

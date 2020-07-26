@@ -21,14 +21,6 @@ module.exports = {
         SymLinksIfOwnerMatch: true,
       },
     },
-    {
-      resolve: "gatsby-plugin-robots-txt",
-      options: {
-        host: "https://atomizecode.com/",
-        sitemap: "https://atomizecode.com/sitemap.xml",
-        policy: [{ userAgent: "*", allow: "/" }],
-      },
-    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
@@ -49,7 +41,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: `src/images/atomize-icon.svg`, // This path is relative to the root of the site.
+        icon: `src/images/habitat-icon.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
