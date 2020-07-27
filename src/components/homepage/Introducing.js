@@ -11,19 +11,19 @@ const list = [
   {
     icon: "🚀",
     heading: "Fast Transactions",
-    subheading: "fast execution & ‚seamless UX",
+    subheading: "Instant execution with seamless UX",
   },
 
   {
     icon: "📐",
     heading: "Flexible Design",
-    subheading: "your community, your parameters",
+    subheading: "Governance with any ERC-20 token.",
   },
 
   {
-    icon: "👨‍",
+    icon: "✨",
     heading: "People First",
-    subheading: "Designed for people. To start Real change",
+    subheading: "Build trust and collect valuable feedback.",
   },
 ]
 
@@ -48,7 +48,7 @@ class Intoducing extends React.Component {
             fontFamily="secondary"
             m={{ b: "1rem" }}
           >
-            Why use Habitat?
+            Habitat - voting for people and not for whales 🐳
           </Text>
           <Text
             textSize="subheader"
@@ -56,7 +56,7 @@ class Intoducing extends React.Component {
             maxW="30rem"
             m={{ b: "3rem" }}
           >
-          We give you the tools to kickstart your governance process & give users value at hand.          
+            Kickstart your goverance processes and distribute power among your users.Habitat is your home on layer 2. 
           </Text>
           <Div
             p={{ b: "6rem" }}

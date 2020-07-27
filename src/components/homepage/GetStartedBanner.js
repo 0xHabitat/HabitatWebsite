@@ -3,20 +3,16 @@ import { Div, Text, Container, Anchor, Button, Icon, Row, Col } from "atomize"
 
 const list = [
   {
-    title: "80%",
-    content: "Save 80% on every user transaction ",
+    title: "97%",
+    content: "Deploy on Layer2, escape the gas storms",
   },
   {
-    title: "People",
-    content: "Provide a service people will love to use",
+    title: "Ethereum",
+    content: "Ethereum protocols as a public good.",
   },
   {
     title: "</>",
-    content: "Customize it to match your brand & needs",
-  },
-  {
-    title: "FREE",
-    content: "Open source with regular updates",
+    content: "Open-source with regular updates.",
   },
 ]
 
@@ -36,7 +32,7 @@ const GettingStartedBanner = () => {
                   {list.map((item, index) => (
                     <Col
                       key={index}
-                      size={{ xs: 6, sm: 6, lg: 3 }}
+                      size={{ xs: 6, sm: 6, lg: 4 }}
                       d="flex"
                       align="center"
                       flexDir="column"

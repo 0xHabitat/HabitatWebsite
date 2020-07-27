@@ -145,9 +145,9 @@ class Header extends React.Component {
 
               <Link to="https://calendly.com/deora_earth/intro " target="_blank">
                 <Button
-                  bg="gray300"
-                  hoverBg="gray400"
-                  textColor="medium"
+                  bg="brand"
+                  hoverBg="brand4"
+                  textColor="white"
                   w={{ xs: "100%", sm: "8.5rem" }}
                   rounded="lg"
                   style={{ letterSpacing: "-0.5px" }}

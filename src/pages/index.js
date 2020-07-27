@@ -19,8 +19,8 @@ const IndexPage = () => (
     />
     <Header />
     <HeroSection />
-    <Introducing />
     <Features />
+    <Introducing />
     {/*
     <Craft />
     */}

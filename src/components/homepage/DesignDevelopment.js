@@ -17,8 +17,8 @@ const DesignDevelopment = () => {
               maxW="42rem"
               m={{ b: "4rem" }}
             >
-              We have the solution for all{" "}
-              <span style={{ color: "#FFCB57" }}>Project stages</span>.
+              Web3 solution for{" "}
+              <span style={{ color: "#FFCB57" }}>decentralized governance</span>.
             </Text>
           </Div>
           <Div>
@@ -49,7 +49,7 @@ const DesignDevelopment = () => {
                     p={{ r: "1rem" }}
                     m={{ b: "1.5rem" }}
                   >
-                    You already have a token?.
+                    Upgrade your token with strong governance value.
                   </Text>
                 </Div>
               </Col>
@@ -79,7 +79,7 @@ const DesignDevelopment = () => {
                     p={{ r: "1rem" }}
                     m={{ b: "1.5rem" }}
                   >
-                    Yes, we can help you with that!
+                    Start your own token and bootstrap your community.
                   </Text>
                 </Div>
               </Col>

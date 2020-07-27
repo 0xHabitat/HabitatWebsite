@@ -18,20 +18,20 @@ import icon5 from "../../images/feature-icons/5.svg"
 
 const featuresList = [
   {
-    icon: icon5,
-    heading: "Experiance",
-    subheading: "Provide the experiance people expect.",
+    icon: icon2,
+    heading: "User Experience",
+    subheading: "Simple to use governance platform.",
   },
   {
-    icon: icon2,
+    icon: icon4,
     heading: "Community",
-    subheading: "Create a active community arround your product.",
+    subheading: "Active engagement with real time participation.",
   },
 
   {
-    icon: icon4,
-    heading: "Minimalism",
-    subheading: "Minimal design with a full feauter set.",
+    icon: icon5,
+    heading: "Compliance",
+    subheading: "Fully decentralized protocols.",
   },
 ]
 

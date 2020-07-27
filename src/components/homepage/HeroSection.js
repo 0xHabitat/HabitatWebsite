@@ -24,7 +24,7 @@ class HeroSection extends React.Component {
               fontFamily="secondary"
               m={{ b: "1rem" }}
             >
-              Fast & Simple Governance Plattform
+              Layer 2 Governance Launchpad
             </Text>
             <Text
               tag="h2"
@@ -36,8 +36,6 @@ class HeroSection extends React.Component {
               textColor="medium"
               m={{ b: "2.5rem" }}
             >
-              Habitat is a beautifully and simple Governance Plattform on Layer2. 
-              Launch your own Governance Token with a view clicks or use any exsisting ERC-20 token. 
               We enable fast and cheap governance for your DAO or DEFI project.
             </Text>
             <Div
@@ -55,7 +53,7 @@ class HeroSection extends React.Component {
                   rounded="lg"
                   m={{ r: "1rem", b: { xs: "1rem", sm: "0" } }}
                 >
-                  Get Started Now
+                  Get in touch
                 </Button>
               </Link>
               <Anchor
@@ -73,16 +71,8 @@ class HeroSection extends React.Component {
                   rounded="lg"
                   p={{ l: "0.5rem", r: "1rem" }}
                   textColor="medium"
-                  prefix={
-                    <Icon
-                      name="Play"
-                      size="18px"
-                      m={{ r: "0.5rem" }}
-                      color="black400"
-                    />
-                  }
                 >
-                  Intro Video
+                   Support
                 </Button>
               </Anchor>
             </Div>
