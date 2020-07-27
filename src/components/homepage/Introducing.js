@@ -48,7 +48,7 @@ class Intoducing extends React.Component {
             fontFamily="secondary"
             m={{ b: "1rem" }}
           >
-            Habitat - voting for people and not for whales 🐳
+            Voting for people and not for whales 🐳
           </Text>
           <Text
             textSize="subheader"
@@ -56,7 +56,7 @@ class Intoducing extends React.Component {
             maxW="30rem"
             m={{ b: "3rem" }}
           >
-            Kickstart your goverance processes and distribute power among your users.Habitat is your home on layer 2. 
+            Kickstart your governance process and distribute power among your users. Habitat is your home on layer 2. 
           </Text>
           <Div
             p={{ b: "6rem" }}
