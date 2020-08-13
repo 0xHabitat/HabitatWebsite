@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Div, Text, Row, Col, Container, Anchor, Icon, Image } from "atomize"
+import { Div, Text, Row, Col, Container, Button, Icon, Image } from "atomize"
 
 const DesignDevelopment = () => {
   return (
@@ -53,7 +53,7 @@ const DesignDevelopment = () => {
                   </Text>
                 </Div>
               </Col>
-              <Col size={{ xs: 12, md: 6, lg: 4 }} pos="relative">
+              <Col size={{ xs: 12, md: 6, lg: 4 }} pos="relative" opacity="40%">
                 <Div
                   shadow="4"
                   border="1px solid"

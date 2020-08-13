@@ -1,7 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
+import Iframe from 'react-iframe'
+import { Button, Container, Text, Div, Image, Anchor } from "atomize"
+import "./gradient.css"
+import wave from "../../images/wave.svg"
 
-import { Button, Container, Text, Div, Icon, Anchor } from "atomize"
 
 import FollowCard from "./uicomponents/FollowCard"
 import UserEdit from "./uicomponents/UserEdit"
@@ -14,7 +17,14 @@ class HeroSection extends React.Component {
   render() {
     return (
       <>
-        <Div tag="section" p={{ t: { xs: "6rem", md: "11rem" } }}>
+      <Iframe url="https://habitatgradient.netlify.app/"
+            position="absolute"
+            width="100%"
+            height="50%"
+            className="gradient"
+            styles={{top: 0}}
+            allowFullScreen/>
+        <Div tag="section" p={{ t: { xs: "6rem", md: "8rem" } }}>
           <Container d="flex" flexDir="column" align="center" background>
             <Text
               tag="h1"
@@ -22,7 +32,9 @@ class HeroSection extends React.Component {
               textAlign="center"
               textSize="display3"
               fontFamily="secondary"
+              textColor="white"
               m={{ b: "1rem" }}
+              zIndex="400"
             >
               Layer 2 Governance Launchpad
             </Text>
@@ -33,8 +45,9 @@ class HeroSection extends React.Component {
               textSize="subheader"
               textAlign="center"
               fontFamily="secondary"
-              textColor="medium"
+              textColor="white"
               m={{ b: "2.5rem" }}
+              zIndex="400"
             >
               We enable fast and cheap governance for your DAO or DEFI project.
             </Text>
@@ -43,13 +56,16 @@ class HeroSection extends React.Component {
               w="100%"
               justify="center"
               flexDir={{ xs: "column", sm: "row" }}
+              zIndex="400"
             >
               <Link to="https://calendly.com/deora_earth/intro?month=2020-07" target="_blank">
                 <Button
                   h="3rem"
                   w={{ xs: "100%", sm: "11rem" }}
-                  bg="brand"
-                  hoverBg="brand4"
+                  bg="white"
+                  hoverBg="brand"
+                  textColor="brand"
+                  hoverTextColor="white"
                   rounded="lg"
                   m={{ r: "1rem", b: { xs: "1rem", sm: "0" } }}
                 >
@@ -57,7 +73,7 @@ class HeroSection extends React.Component {
                 </Button>
               </Link>
               <Anchor
-                href="https://www.youtube.com/embed/jcbs2CsoLqg?start=2430"
+                href="https://gitcoin.co/grants/283/deora-enabling-the-next-step-in-human-coordinatio"
                 target="_blank"
               >
                 <Button
@@ -67,15 +83,22 @@ class HeroSection extends React.Component {
                   hoverBg="gray200"
                   border="1px solid"
                   borderColor="gray400"
-                  hoverBorderColor="gray600"
+                  hoverBorderColor="transparent"
                   rounded="lg"
                   p={{ l: "0.5rem", r: "1rem" }}
-                  textColor="medium"
+                  textColor="white"
+                  hoverTextColor="brand"
                 >
                    Support
                 </Button>
               </Anchor>
             </Div>
+            <Image
+                src={wave}
+                alt="Habitat"
+                w="180%"
+                zIndex="200"
+              />
           </Container>
         </Div>
         {/*

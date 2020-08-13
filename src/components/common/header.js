@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Div, Text, Image, Container, Button, Anchor, scrollTo } from "atomize"
 import logo from "../../images/logo.svg"
-import HabitatSphere from "../homepage/HabitatSphere"
+
 
 class Header extends React.Component {
   constructor(props) {
@@ -47,7 +47,6 @@ class Header extends React.Component {
             opacity="1"
             zIndex="-1"
           >
-           <HabitatSphere /> 
           </Div>
           <Container d="flex" align="center" justify="space-between">
             <Div cursor="pointer">

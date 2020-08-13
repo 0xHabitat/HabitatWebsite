@@ -38,7 +38,7 @@ const featuresList = [
 class Features extends React.Component {
   render() {
     return (
-      <Div tag="section">
+      <Div tag="section" m={{ t: "-8rem" }}>
         <Container>
           <Div
             p={{ t: "9.5rem", b: "5rem" }}
