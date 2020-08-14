@@ -4,6 +4,7 @@ import Iframe from 'react-iframe'
 import { Button, Container, Text, Div, Image, Anchor } from "atomize"
 import "./gradient.css"
 import wave from "../../images/wave.svg"
+import logo from "../../images/logo-white.svg"
 
 
 import FollowCard from "./uicomponents/FollowCard"
@@ -20,12 +21,19 @@ class HeroSection extends React.Component {
       <Iframe url="https://habitatgradient.netlify.app/"
             position="absolute"
             width="100%"
-            height="50%"
+            height="100%"
             className="gradient"
             styles={{top: 0}}
             allowFullScreen/>
         <Div tag="section" p={{ t: { xs: "6rem", md: "8rem" } }}>
           <Container d="flex" flexDir="column" align="center" background>
+          <Image
+                src={logo}
+                alt="Habitat"
+                h="80px"
+                w="auto"
+                zIndex="400"
+              />
             <Text
               tag="h1"
               textWeight="500"
