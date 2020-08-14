@@ -21,7 +21,7 @@ class HeroSection extends React.Component {
       <Iframe url="https://habitatgradient.netlify.app/"
             position="absolute"
             width="100%"
-            height="100%"
+            height="90%"
             className="gradient"
             styles={{top: 0}}
             allowFullScreen/>
