@@ -18,13 +18,15 @@ class HeroSection extends React.Component {
   render() {
     return (
       <>
-      <Iframe url="https://habitatgradient.netlify.app/"
-            position="absolute"
-            width="100%"
-            height="90%"
-            className="gradient"
-            styles={{top: 0}}
-            allowFullScreen/>
+        <Iframe url="https://habitatgradient.netlify.app/"
+              position="absolute"
+              width="100%"
+              height="600rem"
+              className="gradient"
+              styles={{top: 0}}
+              zIndex="2000"
+              allowFullScreen
+        />
         <Div tag="section" p={{ t: { xs: "6rem", md: "8rem" } }}>
           <Container d="flex" flexDir="column" align="center" background>
           <Image
@@ -104,7 +106,8 @@ class HeroSection extends React.Component {
             <Image
                 src={wave}
                 alt="Habitat"
-                w="180%"
+                w={{xs: '180%', sm: '200%', md: '170%', lg: '130%'}}
+                opacity={{xl: '0%'}}
                 zIndex="200"
               />
           </Container>
