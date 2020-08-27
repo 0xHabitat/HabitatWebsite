@@ -1,21 +1,22 @@
 import React from "react"
 import { Link } from "gatsby"
 import Iframe from 'react-iframe'
-import { Button, Container, Text, Div, Image, Anchor } from "atomize"
+import { Button, Container, Text, Div, Image, Anchor,  } from "atomize"
 import "./gradient.css"
 import wave from "../../images/wave.svg"
 import logo from "../../images/logo-white.svg"
-
-
-import FollowCard from "./uicomponents/FollowCard"
-import UserEdit from "./uicomponents/UserEdit"
-import Buttons from "./uicomponents/Buttons"
-import CardComponent from "./uicomponents/CardComponent"
-import LoginForm from "./uicomponents/LoginForm"
+import AlignCenterModal from "./uicomponents/CenterdModal"
 
 // import Notification from './uicomponents/Notification'
 class HeroSection extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showModal: false
+    };
+  }
   render() {
+    const { showModal } = this.state;
     return (
       <>
         <Iframe url="https://habitatgradient.netlify.app/"
@@ -82,11 +83,7 @@ class HeroSection extends React.Component {
                   Get in touch
                 </Button>
               </Link>
-              <Anchor
-                href="https://gitcoin.co/grants/283/deora-enabling-the-next-step-in-human-coordinatio"
-                target="_blank"
-              >
-                <Button
+              <Button
                   h="3rem"
                   w={{ xs: "100%", sm: "11rem" }}
                   bg="transparent"
@@ -98,10 +95,18 @@ class HeroSection extends React.Component {
                   p={{ l: "0.5rem", r: "1rem" }}
                   textColor="white"
                   hoverTextColor="brand"
+                  onClick={() => void(window.open('https://form.jotform.com/202392432227045',
+                  'blank',
+                  'scrollbars=yes',
+                  'toolbar=no',)
+                  )}
                 >
-                   Support
+                  Demo
                 </Button>
-              </Anchor>
+                <AlignCenterModal
+                  isOpen={showModal}
+                  onClose={() => this.setState({ showModal: false })}
+                />
             </Div>
             <Image
                 src={wave}
@@ -112,45 +117,6 @@ class HeroSection extends React.Component {
               />
           </Container>
         </Div>
-        {/*
-        <Div
-          tag="section"
-          w="100vw"
-          p={{ t: { xs: "3rem", md: "6rem" } }}
-          overflow="hidden"
-        >
-          <Container>
-            <Div
-              d="flex"
-              justify="center"
-              p={{ b: "10.5rem" }}
-              border={{ b: "1px solid" }}
-              borderColor="gray300"
-            >
-              <Div
-                minW={{ xs: "100%", md: "44rem", lg: "59rem" }}
-                d="flex"
-                align="center"
-                flexDir="column"
-                h={{ xs: "auto", md: "21rem", lg: "20rem" }}
-                pos="relative"
-              >
-                <Buttons />
-
-                <FollowCard />
-
-                <CardComponent />
-
-                <Notification />
-
-                <LoginForm />
-
-                <UserEdit />
-              </Div>
-            </Div>
-          </Container>
-        </Div>
-        */}
       </>
     )
   }
