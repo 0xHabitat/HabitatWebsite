@@ -102,10 +102,6 @@ class HeroSection extends React.Component {
                 >
                   Demo
                 </Button>
-                <AlignCenterModal
-                  isOpen={showModal}
-                  onClose={() => this.setState({ showModal: false })}
-                />
             </Div>
             <Image
                 src={wave}
