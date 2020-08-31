@@ -8,14 +8,7 @@ import logo from "../../images/logo-white.svg"
 
 // import Notification from './uicomponents/Notification'
 class HeroSection extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      showModal: false
-    };
-  }
   render() {
-    const { showModal } = this.state;
     return (
       <>
         <Iframe url="https://habitatgradient.netlify.app/"
