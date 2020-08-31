@@ -5,7 +5,6 @@ import { Button, Container, Text, Div, Image, Anchor,  } from "atomize"
 import "./gradient.css"
 import wave from "../../images/wave.svg"
 import logo from "../../images/logo-white.svg"
-import AlignCenterModal from "./uicomponents/CenterdModal"
 
 // import Notification from './uicomponents/Notification'
 class HeroSection extends React.Component {
