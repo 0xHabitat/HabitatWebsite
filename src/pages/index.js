@@ -10,6 +10,7 @@ import Craft from "../components/homepage/Craft"
 import DesignDevelopment from "../components/homepage/DesignDevelopment"
 import GetStartedBanner from "../components/homepage/GetStartedBanner"
 import Footer from "../components/homepage/Footer"
+import SupportBlock from "../components/homepage/SupporterBlock"
 
 const IndexPage = () => (
   <Layout>
@@ -26,6 +27,7 @@ const IndexPage = () => (
     */}
     <DesignDevelopment />
     <GetStartedBanner />
+    <SupportBlock />
     <Footer />
   </Layout>
 )
