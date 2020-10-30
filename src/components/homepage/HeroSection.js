@@ -11,7 +11,7 @@ class HeroSection extends React.Component {
   render() {
     return (
       <>
-        <Iframe url="https://habitatgradient.netlify.app/"
+        <Iframe url="https://gradient.deora.earth/"
               position="absolute"
               width="100%"
               height="600rem"
