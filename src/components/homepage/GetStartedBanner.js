@@ -106,7 +106,7 @@ const GettingStartedBanner = () => {
             </Div>
             <Div d="flex" w="100%">
               <Anchor
-                href="https://habitatmvp.netlify.app/"
+                href="https://mvp.deora.earth/"
                 target="_blank">
                 <Button
                   h="3rem"
