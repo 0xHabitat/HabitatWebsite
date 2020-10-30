@@ -43,22 +43,6 @@ export default function HTML(props) {
         <meta property="og:site_name" content="Habitat" />
         <meta property="fb:app_id" content="1887338054890731" />
 
-        {/* Google Analitics */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-147146482-5"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-      
-              gtag('config', 'UA-147146482-5
-              ');`,
-          }}
-        ></script>
-
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
