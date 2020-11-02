@@ -20,4 +20,4 @@ RUN \
   cat .tmp_zone; \
   sed -i'' -e "s/$OLD_CID/$NEW_CID/g" .tmp_zone; \
   cat .tmp_zone; \
-  flyctl -t ${FLY_TOKEN} dns-records import ${DOMAIN} .tmp_zone;
+  /flyctl -t ${FLY_TOKEN} dns-records import ${DOMAIN} .tmp_zone;
