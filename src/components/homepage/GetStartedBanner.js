@@ -93,7 +93,7 @@ const GettingStartedBanner = () => {
                 textWeight="500"
                 m={{ b: "1rem" }}
               >
-                Disover Habitat
+                Discover Habitat
               </Text>
               <Text
                 textSize="subheader"

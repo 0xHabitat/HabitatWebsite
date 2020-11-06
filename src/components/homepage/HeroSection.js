@@ -87,10 +87,7 @@ class HeroSection extends React.Component {
                   p={{ l: "0.5rem", r: "1rem" }}
                   textColor="white"
                   hoverTextColor="brand"
-                  onClick={() => void(window.open('https://form.jotform.com/202392432227045',
-                  'blank',
-                  'scrollbars=yes',
-                  'toolbar=no',)
+                  onClick={() => void(window.open('https://mvp.deora.earth/', '_blank')
                   )}
                 >
                   Demo
